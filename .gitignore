@@ -3,6 +3,7 @@
 /application.windows32/
 /application.macosx/
 /application.linux*
+java/
 
 # Ignore temporary files
 *.log
