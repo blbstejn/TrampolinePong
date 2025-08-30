@@ -1,0 +1,9 @@
+# Ignore build exports
+/application.windows64/
+/application.windows32/
+/application.macosx/
+/application.linux*
+
+# Ignore temporary files
+*.log
+*.tmp
