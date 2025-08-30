@@ -5,6 +5,8 @@ READ ME / COVER SHEET
 
 This project is the final test of a module in my unitversity class called "Game Physics" at mdh university.
 
+The two .pde files are the only ones containing code. everything in the "windows-amd64" is a simple executable build.
+
 Sole contributary:
 
 Leon Sommerfeld
