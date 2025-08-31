@@ -86,10 +86,10 @@ class Ball
         // Add small fun boost for gamified effect
         float extraHeight = 80;  // pixels
         float extraVel = sqrt(2 * gravity * extraHeight);
-        vel.y -= extraVel;
+        vel.y -= extraVel; //<>//
   
         // Maximum bounce velocity
-        vel.y = max(vel.y, -maxSpeed);
+        vel.y = min(vel.y, -maxSpeed);
   
         // Horizontal randomness
         vel.x += random(70,70);
